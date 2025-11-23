@@ -2,7 +2,7 @@
 Local Web Server is using port **8887**
 
 # How to use:
-1. Launch the injector.exe with arguments <process name.exe> <dll name.dll>
+1. Launch the injector.exe with arguments <process name.exe> <dll name.dll> <br>
 Example: `injector.exe gmod.exe gluonapi.dll`
 
 2. Web Api requests
