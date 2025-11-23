@@ -6,7 +6,7 @@ Local Web Server is using port **8887**
 Example: `injector.exe gmod.exe gluonapi.dll`
 
 2. Web Api requests
-Server hello `GET /`
+Server hello `GET /` <br>
 Execute **GLua** script `POST /execute [ Content-Type: text/plain ]`
 
 Javascript fetch example:
