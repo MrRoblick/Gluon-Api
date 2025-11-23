@@ -32,7 +32,7 @@ static void InitWebServer() {
 
 int WINAPI MainThread(void* p) {
     Gluon::init(false);
-    std::thread(InitWebServer).detach();
+    InitWebServer();
     return 0;
 }
 
