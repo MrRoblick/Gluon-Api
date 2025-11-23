@@ -6,7 +6,6 @@
 
 #include <Gluon.h>
 #include <thread>
-#include <GluonPacket.h>
 
 static void InitWebServer() {
     crow::SimpleApp app;
@@ -31,7 +30,7 @@ static void InitWebServer() {
 }
 
 int WINAPI MainThread(void* p) {
-    Gluon::init(false);
+    Gluon::init(true);
     InitWebServer();
     return 0;
 }
